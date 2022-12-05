@@ -1,0 +1,20 @@
+{
+  "name": "weather-report",
+  "version": "1.0.0",
+  "description": "weather-report",
+  "main": "weather.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon weather.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/verikinaboina/weather-report.git"
+  },
+  "author": "verikinaboina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/verikinaboina/weather-report/issues"
+  },
+  "homepage": "https://github.com/verikinaboina/weather-report#readme"
+}
