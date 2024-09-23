@@ -35,7 +35,7 @@ function displayResults(weather) {
     weatherRep.innerHTML = `${weather.weather[0].description}`;
 
     const currentTemp = document.querySelector('.current .hi-low');
-    currentTemp.innerHTML = `${Math.round(weather.main.temp_min)} / ${Math.round(weather.main.temp_max)}`;
+    currentTemp.innerHTML = `${Math.round(weather.main.temp_min)}<span>°c</span> / ${Math.round(weather.main.temp_max)}<span>°c</span>`;
 
 }
 
@@ -50,5 +50,5 @@ let dates = date.getDate();
 let month = months[date.getMonth()];
 let year = date.getFullYear();
 
-return `${day}, ${dates}, ${month}, ${year}`
+return `${day} ${dates}th, ${month}, ${year}`
 }
